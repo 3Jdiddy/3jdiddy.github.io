@@ -1,0 +1,64 @@
+:root{
+    --bg: black;
+    --text: black;
+    --bgSoft: gray;
+    --textSoft: rgb(23, 23, 23);
+    --bin: red;
+}
+
+p{
+    color: black;
+}
+
+h1{
+    color: #fffaf6;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+h4{
+    color: black;
+}
+
+body{
+    background-color: #08405a;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    background-color: #eef2f6;
+    border-radius: 10px;
+    color: #fffaf6;
+    width: 1536px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-between;
+}
+
+.sub-container{
+    margin: auto;
+    background-color: #fffaf6;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.text-container{
+    background-color: #fffaf6;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
