@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 
 import { usePathname } from 'next/navigation';
 import Link from "next/link";
@@ -12,7 +12,7 @@ const NavLink = ({item}) => {
         <Link 
         href={item.path} 
         className={`${styles.container} ${
-            pathName === item.title && styles.active
+            pathName === item.path && styles.active
         }`}>
             {item.title}
         </Link>
