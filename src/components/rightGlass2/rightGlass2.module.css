@@ -1,0 +1,9 @@
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  height: 52vw;
+  width: auto;
+}
+

@@ -1,0 +1,22 @@
+/* yourTextBox.css */
+
+.textBox {
+  padding: 2vw;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(80, 78, 78, 0.1);
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  font-size: 1.5vw;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  font-size: 1.4vw;
+  line-height: 1.5;
+}

@@ -6,10 +6,10 @@ const Navbar = () => {
     return (
         <div className={styles.container}>
             <div className={styles.logo}>
-                <Image src="/scc.png" alt="" width={101} height={101}/>
+                <Image src="/scc.png" alt="" width={50} height={50}/>
             </div>
-            <div>
-                <h1>Second Congregational Church, UCC</h1>
+            <div className={styles.h1}>
+              <h1>The Second Congregational Church</h1>
             </div>
             <div>
                 <Links/>

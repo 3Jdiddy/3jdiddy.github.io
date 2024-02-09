@@ -1,40 +1,20 @@
 :root{
     --bg: black;
-    --text: black;
+    --text: white;
     --bgSoft: gray;
-    --textSoft: rgb(23, 23, 23);
-    --bin: red;
+    --textSoft: white;
+    --bin: purple;
 }
 
-p{
-    color: black;
-    font-size:larger;
-}
-
-h1{
-    color: #fffaf6;
-}
-
-h2{
-    color: black;
-    font-weight: 300;
-    font-size: xxx-large;
-}
-
-h3{
-    color: black;
-    font-weight: 300;
-    font-size: xx-large;
-}
-
-h4{
-    color: black;
-    font-weight: 300;
-    font-size: x-large;
-}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Times, serif;
+ }
 
 body{
-    background-color: #08405a;
+    background-color: #082a52;
 }
 
 a{
@@ -42,38 +22,70 @@ a{
     color: inherit;
 }
 
+h1{
+    color:#ffffff;
+    font-family: serif;
+}
+
 .container{
-    background-color: #eef2f6;
-    border-radius: 10px;
-    color: #fffaf6;
-    width: 1536px;
-    min-height: 800px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;   
-    justify-content: normal;
-    align-items: normal;
-    align-content: space-evenly;
-}
-
-.sub-container{
-    margin: 10px;
-    background-color: #eef2f6;
-    padding: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-}
-
-.text-container{
-    background-color: #fffaf6;
-    padding: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
-    margin-bottom: auto;
-
+    background-color: #083152;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.page-container-top{
+    height: 53.5vw;
+    width: 100%;
+    text-align: center;
+}
+
+.page-container-bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    height: 52vw;
+    width: 100%;
+}
+
+.img-text {
+  position: absolute;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  font-family: serif;
+  top: 16vh;
+  width: 50vw;
+  height: 50vh;
+  font-size: 4vw;
+}
+
+.img-text-about {
+  position: absolute;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  font-family: serif;
+  top: 10vh;
+  width: 50vw;
+  height: 50vh;
+  font-size: 10vw;
+}
+
+.textBox-container{
+    padding: 1vw;
+    width: 63vw;
+    height: 21vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textBox-container2{
+    padding: 1vw;
+    width: 63vw;
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-cont{
+    padding: 10px;
+    color:darkgoldenrod;
 }

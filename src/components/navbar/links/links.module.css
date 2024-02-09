@@ -1,19 +1,14 @@
 .links{
     display: flex;
     align-items: center;
-    font-size: large;
-    margin-left: 20px;
-    margin-right: 20px;
-    gap: 50px;
+    font-size: 1.5vw;
+    color: #fffaf6;
 }
 
 .link{
     color: #fffaf6
 }
 
-.link:hover{
-    color:darkgoldenrod;  
-}
 
 
 

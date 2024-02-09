@@ -11,19 +11,15 @@ const Links = () => {
         },
         {
             title: "About",
-            path: "/who-we-are",
-        },
-        {
-            title: "Faith and Worship",
-            path: "/faith-and-worship",
-        },
-        {
-            title: "Community",
-            path: "/community",
+            path: "/about",
         },
         {
             title: "Calendar",
             path: "/calendar",
+        },
+        {
+            title: "Community",
+            path: "/community",
         },
         {
             title: "Connect",
