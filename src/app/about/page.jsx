@@ -1,9 +1,7 @@
 import AboutPic from '@/components/aboutPic/AboutPic';
-import HomePic from '@/components/homePic/HomePic';
 import LeftGlass2 from '@/components/leftGlass2/LeftGlass2';
 import RightGlass2 from '@/components/rightGlass2/RightGlass2';
 import TextBox from '@/components/textBox/TextBox';
-import Image from 'next/image'
 
 const About = () => {
   return (

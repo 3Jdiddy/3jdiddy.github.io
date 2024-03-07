@@ -11,7 +11,7 @@ const Home = () => {
         <HomePic/>
         <div class="img-text">
           <h3>Whoever you are,</h3>
-          <h4>wherever you are on life's journey, you are</h4>
+          <h4>wherever you are on life`s journey, you are</h4>
           <h2>welcome here!</h2>
         </div>
       </div>
